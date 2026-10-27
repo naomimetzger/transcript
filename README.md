@@ -15,7 +15,7 @@ Copy the `transcript-video-editor` directory into the skills directory used by y
 
 Example request: “Use $transcript-video-editor to let me remove sentences and filler words from my video in this chat.”
 
-All transcription and editing can run locally. The transcript is machine-generated and may omit or mis-time words and fillers. Preview your source and review the result; the in-chat selector itself does not play video. The cut script re-encodes an MP4 with one video and one audio stream, and does not create a native editing-project timeline. It never overwrites the source.
+All transcription and editing can run locally. The transcript is machine-generated and may omit or mis-time words and fillers. Selected cuts leave up to 0.06 seconds at each edge to help protect adjacent words, but this can leave unwanted fragments and does not replace listening to the joins. Preview your source and review the result; the in-chat selector itself does not play video. The cut script re-encodes an MP4 with one video and one audio stream, and does not create a native editing-project timeline. It never overwrites the source.
 
 ## Repository contents
 
